@@ -1,0 +1,37 @@
+* {padding: 0;
+margin: 0;}
+
+body {background-color: lightseagreen;}
+
+.text-center {display: flex;
+            justify-content: center;
+            margin-top: 3rem;
+            margin-bottom: 3rem;}
+.card {width: 20rem;
+    background-color: orange;
+    border: solid 4px yellow;
+    border-radius: 15px;}
+
+.card img {border-top-left-radius: 10px;
+        border-top-right-radius: 10px;}
+
+.form-control {width: 14rem;
+            margin: 1rem;
+            border: solid 2px lightseagreen;
+            font-family: monospace;
+            font-size: large;
+            text-align: center;
+            color: black;}
+
+.btn {border: solid 2px lightseagreen;
+    background-color: yellow;
+    font-family: monospace;
+    font-size: large;
+    color: black;
+    margin: 1rem;}
+
+.btn:hover {background-color: lightseagreen;
+            border: solid 2px yellow;}
+
+.btn a {text-decoration: none;
+        color: black;}
